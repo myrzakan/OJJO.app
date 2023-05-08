@@ -1,0 +1,143 @@
+
+.home_container {
+    text-align: center;   
+    width: 100%;
+    height: 100vh;
+    background: url(../../../public/img/bgc.png) center/cover no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    .content_home_page {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+
+        h1 {
+            font-size: 50px;
+            font-weight: 400;
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        .content_home_btn {
+            width: 200px;
+            height: 30px;
+            border: 2px solid white;
+            outline: none;
+            text-transform: uppercase;
+            font-weight: 600;
+            cursor: pointer;
+            background-color: rgba(0,0,0,0);
+            color: white;
+        }
+    }
+
+    .bottom_home::before {
+        content: '';
+        top: 45rem;
+        right: 0rem;
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        background-color: #ffffff;
+    }
+    
+    .bottom_home_logo {
+        position: absolute;
+        bottom: 50px;
+        left: 300px;
+        z-index: 999;
+
+        ul {
+            display: flex;
+        }
+
+        li {
+            border-right: 1px solid #ffffff;
+            padding: 0 30px;
+        }
+
+        img {
+            width: 160px;
+            height: 60px;
+        }
+
+        .img{
+            width: 160px;
+            height: 60px;
+            margin-left: 40px;
+            
+        }
+
+        
+    }
+}
+
+.home_title {
+    position: relative;
+    top: 50px;
+
+    p {
+        margin-bottom: 10px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 140%; 
+    }
+
+    h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 41px;
+    }
+}
+
+
+.home_img {
+    position: relative;
+    bottom: 70px;
+
+    margin: 150px ;
+  
+
+    .img1 {
+        position: absolute;
+    }
+
+    .img2 {
+        position: relative;
+        left: 34.7rem;
+    }
+
+    .img3 {
+        position: relative;
+        left: 34.7rem;
+    }
+
+    .img4 {
+        position: relative;
+        top: 18.7rem;
+        right: 34.7rem;
+    }
+
+    .img5 {
+        position: relative;
+        top: 18.7rem;
+        right: 555px;
+    }
+
+    .img6 {
+        position: relative;
+        left: 277px;
+        bottom: 6px;
+    }
+    
+}
+
+
+
