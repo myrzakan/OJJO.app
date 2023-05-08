@@ -7,6 +7,8 @@ import About from './Pages/About/index'
 import Collection from './Pages/Collection/index'
 
 
+
+
 const App = () => {
   return (
     <div className="App">
